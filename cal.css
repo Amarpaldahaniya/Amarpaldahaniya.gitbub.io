@@ -1,0 +1,89 @@
+.imgcal{
+    position:fixed;
+    margin-top: 20px;
+    margin-left: 60vh;
+    
+}
+.datetime{
+    position: fixed;
+    align-items: center;
+    margin-top: 28vh;
+    margin-left: 75vh;
+    padding: 30px;
+    height: 40vh;
+    width: 55vh;
+    background: transparent;
+    border-radius: 25px;
+}
+#datebox{
+    border-radius: 10px;
+    width: 40vh;
+    font-size: 18px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+#timebox{
+    border-radius: 10px;
+    width: 40vh;
+    font-size: 18px;
+  padding: 10px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+#submitbtn{
+    background-color: #687df5; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 15vh;
+    width: 150px;
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+#submitbtn:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top: 5px;
+    font-size: medium;
+}
+.datetime:hover{
+    box-shadow: 16px 16px 32px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    background-color: blanchedalmond;opacity: 0.8;
+   
+}
+.selectdateform{
+    margin-left: 17vh;
+    color: rgb(32, 70, 236);
+    font-size: 20px;
+    font-weight:900;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.animation{
+    position: fixed;
+    height: 20vh;
+    width: 25vh;
+    margin-top: 5vh;
+    margin-left: 75%;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    
+}
+#volleypng{
+    height: 17vh;
+    margin-top: 70vh;
+}
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    50%   {left:0px; top:-73vh;animation-duration: 1s;}
+    
+    100% {left:0px; top:0vh;}
+}

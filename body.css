@@ -1,0 +1,128 @@
+.a1{
+    position: absolute;
+    
+    height: 400px;
+    width: 500px;
+    top: auto;
+    top:80px;
+    left:10%;
+}
+.a2{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.15);
+    background-color: rgb(255, 255, 252);
+    height: 320px;
+    width: 400px;
+    padding: 30px;
+    position: absolute;
+    top:120px;
+    left:55%;
+    border-radius: 10px;
+
+}
+*{
+    margin: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+    
+}
+.a1 .pic1{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    border-radius: 25px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
+h1{
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(242, 244, 250);
+}
+
+.last{
+   
+    position: absolute;
+    left: 57%;
+    top: 80%;
+}
+.btn1{
+    background-color: #687df5; /* Green */
+    border: 2px slateblue ;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.btn2{
+    background-color: #687df5; /* Green */
+    border: 2px slateblue ;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    width: 100px;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+#name{
+    border-radius: 10px;
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+#pass{
+    border-radius: 10px;
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+img{
+    border-radius: 20px;
+}
+#name:hover,#pass:hover,.btn1:hover,.btn2:hover
+{
+    position:relative;
+    top: 3px;
+}
+.teams{
+        font-size: 10px;
+        text-decoration: none;
+}
+.pic1:hover{
+    transform: scale(1.1);
+    
+    transition-duration: 2s;
+}
+.animation{
+    position: fixed;
+    height: 20vh;
+    width: 25vh;
+    margin-top: 5vh;
+    margin-left: 75%;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    
+}
+#volleypng{
+    height: 17vh;
+    margin-top: 70vh;
+}
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    50%   {left:0px; top:-73vh;animation-duration: 1s;}
+    
+    100% {left:0px; top:0vh;}
+}

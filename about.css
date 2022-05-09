@@ -1,0 +1,85 @@
+.animationabout{
+    position: fixed;
+    height: 20vh;
+    width: 25vh;
+    margin-top: 5vh;
+    
+    margin-left: 91%;
+    animation-name: example2;
+    animation-duration: 2s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    
+}
+#volleypngabout{
+    height: 17vh;
+ 
+}
+@keyframes example2 {
+    0%   {right:0px; top:0vh;}
+    10%   {right:10vh; top:30vh;}
+    20%   {right:20vh; top:40vh;}
+    30%   {right:30vh; top:50vh;}
+    40% {right:40vh; top:60vh;}
+    50%   {right:50vh; top:70vh;}
+    60%   {right:60vh; top:60vh;}
+    70%   {right:70vh; top:50vh;}
+    80%   {right:80; top:40vh;}
+    90% {right:87vh; top:30vh;}
+    100% {right:89vh; top:20vh;}
+}
+
+.animationabout1{
+    position: fixed;
+    height: 20vh;
+    width: 25vh;
+    margin-top: 5vh;
+    margin-left: 0%;
+    animation-name: example3;
+    animation-duration: 2s;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    
+}
+#volleypngabout1{
+    height: 17vh;
+    
+}
+@keyframes example3 {
+    0%   {left:0px; top:0vh;}
+    10%   {left:10vh; top:30vh;}
+    20%   {left:20vh; top:40vh;}
+    30%   {left:30vh; top:50vh;}
+    40% {left:40vh; top:60vh;}
+    50%   {left:50vh; top:70vh;}
+    60%   {left:60vh; top:60vh;}
+    70%   {left:70vh; top:50vh;}
+    80%   {left:80; top:40vh;}
+    90% {left:87vh; top:30vh;}
+    100% {left:88vh; top:20vh;}
+}
+
+.aboutbox{
+    background-color: bisque;
+    height: 60vh;
+    padding: 7vh;
+    width: 80%;
+    position: fixed;
+    align-items: center;
+    content: center;
+    justify-content: center;
+    margin-top: 5vh;
+    border-radius: 10px;
+    margin-left: 15vh;
+}
+.abouttext{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    display: contents;
+    color: brown;
+    word-spacing: 5px;
+    line-height: 22px;
+    text-align: justify;
+}
